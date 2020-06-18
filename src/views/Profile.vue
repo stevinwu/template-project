@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    管理(父级路由view)
-    <router-view />
+    账号管理(子路由view)
   </div>
 </template>
