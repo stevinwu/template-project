@@ -11,10 +11,10 @@ module.exports = {
   devServer: {
     open: true,
     disableHostCheck: true,
-    host: "local.opd.kugou.net",
+    host: "******",
     proxy: {
       '/user': {
-        target: 'http://dev.opd.kugou.net',
+        target: 'http://*****',
         changeOrigin: true,
       }
     }
